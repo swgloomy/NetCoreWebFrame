@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\CSharp\\NetCoreWebFrame\\DAL\\DAL.csproj",
+    "projectName": "DAL",
+    "projectPath": "D:\\CSharp\\NetCoreWebFrame\\DAL\\DAL.csproj",
+    "outputPath": "D:\\CSharp\\NetCoreWebFrame\\DAL\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "D:\\CSharp\\NetCoreWebFrame\\Common\\Common.csproj": {
+            "projectPath": "D:\\CSharp\\NetCoreWebFrame\\Common\\Common.csproj"
+          },
+          "D:\\CSharp\\NetCoreWebFrame\\Model\\Model.csproj": {
+            "projectPath": "D:\\CSharp\\NetCoreWebFrame\\Model\\Model.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "MySql.Data": {
+          "target": "Package",
+          "version": "[8.0.10-rc, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

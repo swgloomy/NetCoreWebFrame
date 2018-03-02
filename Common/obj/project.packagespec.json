@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\CSharp\\NetCoreWebFrame\\Common\\Common.csproj",
+    "projectName": "Common",
+    "projectPath": "D:\\CSharp\\NetCoreWebFrame\\Common\\Common.csproj",
+    "outputPath": "D:\\CSharp\\NetCoreWebFrame\\Common\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "D:\\CSharp\\NetCoreWebFrame\\Model\\Model.csproj": {
+            "projectPath": "D:\\CSharp\\NetCoreWebFrame\\Model\\Model.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.3, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "NPOI": {
+          "target": "Package",
+          "version": "[2.3.0, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[11.0.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
