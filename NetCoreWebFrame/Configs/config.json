@@ -7,7 +7,7 @@
   "redisIp":"127.0.0.1:6379",
   "redisDatabase":5,
   "userCookieSaveTime":30000,
-  "userInfoRedisSaveName":"urm-phone-{0}",
+  "userInfoRedisSaveName":"phone-{0}",
   "userPhoneCodeRedisSaveName":"phoneCode-{0}",
   "userPhoneCodeRedisSaveTime":60,
   "isWriteLog":true,
